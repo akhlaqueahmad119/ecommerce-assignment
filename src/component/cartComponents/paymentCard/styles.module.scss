@@ -1,0 +1,21 @@
+.addressCard {
+  width: 100%;
+}
+.paymentCardContainer{
+  // background-color: red;
+  text-align: left;
+  form{
+    div{
+      height: 2.5rem;
+      // background-color: yellow;
+      align-self: center;
+      label{
+        height: 2.5rem;
+        font-size: 1.5rem;
+        input{
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}

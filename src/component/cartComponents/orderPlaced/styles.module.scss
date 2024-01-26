@@ -1,0 +1,65 @@
+.orderPlacedCard {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_container {
+    min-height: 20rem;
+    padding: 1rem;
+  }
+}
+.failed {
+  color: red;
+  font-size: 1.5rem;
+  font-weight: 600;
+  align-self: center;
+  margin-top: 1rem;
+  background-color: rgb(116, 54, 54);
+  padding: 1rem;
+  h1 {
+    text-align: center;
+  }
+  p {
+    font-weight: 400;
+    margin: 0rem 3rem;
+    font-size: 1rem;
+    border: 1px solid red;
+    padding: 1rem;
+  }
+}
+.success {
+  color: rgb(10, 115, 10);
+  text-align: center;
+  margin-top: 1rem;
+  background-color: rgb(199, 253, 229);
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+}
+.successButton{
+  background-color: rgb(255, 255, 255);
+  border-radius: 0.25rem;
+  border: none;
+}
+@media only screen and (max-width: 600px) and (min-width: 200px) {
+  .failed {
+    h1 {
+      font-size: 1.6rem;
+    }
+    p {
+      font-weight: 400;
+      margin: 2rem 1rem 0rem 1rem;
+      font-size: 1rem;
+      border: 1px solid red;
+      padding: 1rem;
+    }
+  }
+  .success {
+    margin-top: 1rem;
+
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+}

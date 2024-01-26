@@ -1,0 +1,26 @@
+.addressCard {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  &_inputs{
+    display: flex;
+    flex-direction: column;
+    label{
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
+      text-align: left;
+      font-weight: 600;  
+     }
+    textArea{
+      height: 6rem;
+      border: 1px solid gray;
+      font-size: 1.2rem;
+    }
+    input{
+      border: 1px solid gray;
+      font-size: 1.2rem;
+      height: 2.5rem;
+    }
+  }
+}
