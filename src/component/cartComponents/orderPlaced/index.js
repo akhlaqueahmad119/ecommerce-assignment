@@ -36,7 +36,7 @@ function OrderPlacedCard({user, steps, handleSteps, Cart, paymentMethod, address
             <p>Thank You Visit Again</p>
             <button
               className={styles.successButton}
-              onClick={() => navigate("/ecommerce-assignmen")}
+              onClick={() => navigate("/")}
             >
               Go Home
             </button>
