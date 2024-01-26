@@ -10,7 +10,7 @@ export default function AppHeader() {
     <div className={styles.header}>
       <div className={styles.wrapper}>
         <div className={styles.header_heading}>
-          {pathname === "/" ? (
+          {pathname === "/ecommerce-assignment" ? (
             <h1>All Products Page</h1>
           ) : (
             <h1>{pathname.split("/")[1] + " Page"}</h1>
@@ -18,7 +18,7 @@ export default function AppHeader() {
         </div>
         <div className={styles.header_icons}>
           {pathname === "/ecommerce-assignment" ? (
-            <CiShoppingCart onClick={() => navigate("/cart")} />
+            <CiShoppingCart onClick={() => navigate("/ecommerce-assignment/cart")} />
           ) : (
             <CiHome onClick={() => navigate("/ecommerce-assignment")} />
           )}
