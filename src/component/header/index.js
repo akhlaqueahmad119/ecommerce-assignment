@@ -5,6 +5,7 @@ import { CiShoppingCart, CiHome } from "react-icons/ci";
 export default function AppHeader() {
   const { pathname } = useLocation();
   const navigate = useNavigate();
+  console.log("pathname", pathname)
   return (
     <div className={styles.header}>
       <div className={styles.wrapper}>
