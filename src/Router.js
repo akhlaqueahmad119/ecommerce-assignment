@@ -9,8 +9,8 @@ function Router() {
 
   return (
     <Routes>
-      <Route exact path="/" element={<AllProductPage />} />
-      <Route exact path="/cart" element={<CartPage />} />
+      <Route exact path="ecommerce-assignment/" element={<AllProductPage />} />
+      <Route exact path="ecommerce-assignment/cart" element={<CartPage />} />
     </Routes>
   );
 }

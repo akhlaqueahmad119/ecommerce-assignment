@@ -16,10 +16,10 @@ export default function AppHeader() {
           )}
         </div>
         <div className={styles.header_icons}>
-          {pathname === "/" ? (
+          {pathname === "/ecommerce-assignment" ? (
             <CiShoppingCart onClick={() => navigate("/cart")} />
           ) : (
-            <CiHome onClick={() => navigate("/")} />
+            <CiHome onClick={() => navigate("/ecommerce-assignment")} />
           )}
         </div>
       </div>
