@@ -19,7 +19,7 @@ function OrderPlacedCard({user, steps, handleSteps, Cart, paymentMethod, address
             {Cart?.map((cart, index) => (
               <CartCard
                 key={cart.productId}
-                productName={"Product Name"}
+                productName={`Product Name ${cart.productId}`}
                 quantity={5 + index}
                 price={109 + index}
                 imgUrl={
