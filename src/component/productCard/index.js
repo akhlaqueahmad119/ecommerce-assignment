@@ -1,8 +1,8 @@
 import styles from "./styles.module.scss";
 
-function ProductCard({key,id, imgURL, price, title, category, description , addToCart}) {
+function ProductCard({id, imgURL, price, title, category, description , addToCart}) {
   return (
-    <div className={styles.productCard}>
+    <div className={styles.productCard} key={id}>
       {imgURL && imgURL.length > 0 && (
         <div className={styles.productCard_image}>
           <img src={imgURL} alt="product" />

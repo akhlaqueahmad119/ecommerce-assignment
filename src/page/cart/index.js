@@ -16,7 +16,7 @@ function CartPage() {
   );
   const { Products } = useSelector((state) => state.ProductPageReducer);
   const dispatch = useDispatch();
-  
+
   useEffect(() => {
     dispatch(getAllProductData());
     dispatch(getCartData(user.userId));
